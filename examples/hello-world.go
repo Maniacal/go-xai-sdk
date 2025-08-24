@@ -12,7 +12,6 @@ import (
 
 func main() {
 	apiKey := os.Getenv("XAI_API_KEY") // Get from https://console.x.ai
-	fmt.Println(apiKey)
 	endpoint := "api.x.ai:443"
 
 	c, err := client.New(apiKey, endpoint)
